@@ -1,0 +1,19 @@
+{
+  "name": "toast-cg",
+  "version": "0.0.1",
+  "description": "A lightweight toast package in Js and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Toast",
+    "Js",
+    "Css"
+  ],
+  "author": "Colin Grahm",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/CGWebDev2003/toast-cg"
+  }
+}
