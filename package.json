@@ -1,6 +1,6 @@
 {
   "name": "toast-cg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight toast package in Js and CSS",
   "main": "index.js",
   "scripts": {
