@@ -7,4 +7,5 @@ const myToast = new Toast({
 	text: "Test Toast",
 	style: "primary",
 	position: "top-right",
+	time: 5000,
 });

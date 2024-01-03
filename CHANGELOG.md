@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [v1.1.9] - 2023/01/03
+
+-   Added Timing Function
+
 ## [v1.0.2] - 2023/01/03
 
 -   Adde Demo
