@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [v1.0.2] - 2023/01/03
+
+-   Adde Demo
+
 ## [v1.0.1] - 24/01/03
 
 -   Added Toast-Class

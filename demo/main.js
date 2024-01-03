@@ -1,4 +1,4 @@
-import Toast from "./ToastCG.js";
+import Toast from "../ToastCG.js";
 
 const body = document.body;
 
