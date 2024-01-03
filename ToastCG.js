@@ -1,6 +1,6 @@
 /**
  * @class Toast
- * @description Create a new Neptune Toast
+ * @description Create a new Toast
  *
  * @param {any} config Add your configuration
  *

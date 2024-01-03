@@ -1,12 +1,12 @@
 # Toast Class Documentation
 
-The `Toast` class allows you to create Neptune-style toasts with configurable options such as icon, message text, style, position, and visibility time.
+The `Toast` class facilitates the creation of customizable toast messages. These toasts can be easily integrated into web applications for displaying brief notifications. The documentation outlines the class structure, constructor parameters, usage examples, and key features.
 
 ## Class: Toast
 
 ### Description
 
-Create a new Neptune Toast with customizable configurations.
+Create a new toast with configurable options such as icon, message text, style, position, and visibility time.
 
 ### Constructor
 
