@@ -10,15 +10,15 @@ Create a new toast with configurable options such as icon, message text, style, 
 
 ### Constructor
 
-javascriptCopy code
-
-`const myToast = new Toast({
-  icon: "YOUR ICON",
-  text: "Test Toast",
-  style: "primary",
-  position: "top-right",
-  time: 5000,
-});`
+```javascript
+const myToast = new Toast({
+	icon: "YOUR ICON",
+	text: "Test Toast",
+	style: "primary",
+	position: "top-right",
+	time: 5000,
+});
+```
 
 #### Parameters
 
@@ -38,15 +38,15 @@ javascriptCopy code
 
 ### Example
 
-javascriptCopy code
-
-`const myToast = new Toast({
-  icon: "YOUR ICON",
-  text: "Test Toast",
-  style: "primary",
-  position: "top-right",
-  time: 5000,
-});`
+```javascript
+const myToast = new Toast({
+	icon: "YOUR ICON",
+	text: "Test Toast",
+	style: "primary",
+	position: "top-right",
+	time: 5000,
+});
+```
 
 This example creates a new `Toast` instance with a specified icon, message text, style, position, and visibility time.
 
