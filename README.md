@@ -1,12 +1,12 @@
 # Toast Class Documentation
 
-The `Toast` class is designed to create Neptune-style toasts, providing a visually appealing way to display messages on a web page. This documentation provides an overview of the class, its constructor, and usage examples.
+The `Toast` class allows you to create Neptune-style toasts with configurable options such as icon, message text, style, position, and visibility time.
 
 ## Class: Toast
 
 ### Description
 
-Create a new Neptune Toast with customizable configurations such as icon, message text, style, and position.
+Create a new Neptune Toast with customizable configurations.
 
 ### Constructor
 
@@ -16,7 +16,8 @@ javascriptCopy code
   icon: "YOUR ICON",
   text: "Test Toast",
   style: "primary",
-  position: "top-right"
+  position: "top-right",
+  time: 5000,
 });`
 
 #### Parameters
@@ -33,6 +34,8 @@ javascriptCopy code
 
     -   `position` (String): (Optional) The position of the toast on the screen, which can be one of the following: "left-top", "left-bottom", "right-top", or "right-bottom".
 
+    -   `time` (Number): (Optional) The time (in milliseconds) until the toast becomes invisible. If not provided, the toast will remain visible until manually removed.
+
 ### Example
 
 javascriptCopy code
@@ -41,10 +44,11 @@ javascriptCopy code
   icon: "YOUR ICON",
   text: "Test Toast",
   style: "primary",
-  position: "top-right"
+  position: "top-right",
+  time: 5000,
 });`
 
-This example creates a new `Toast` instance with a specified icon, message text, style, and position.
+This example creates a new `Toast` instance with a specified icon, message text, style, position, and visibility time.
 
 ### Toast Configuration
 
@@ -56,10 +60,12 @@ This example creates a new `Toast` instance with a specified icon, message text,
 
 -   Position: The position of the toast on the screen. Options include "left-top", "left-bottom", "right-top", or "right-bottom".
 
+-   Time: The time until the toast becomes invisible. If not provided, the toast will remain visible until manually removed.
+
 ### Error Handling
 
 If the `text` parameter is not provided, an error message will be logged to the console, indicating that a message should be added to the toast.
 
 ### Usage
 
-To use the `Toast` class, instantiate it with a configuration object, specifying the desired icon, message text, style, and position. The toast will then be appended to the specified parent element or `document.body` if no parent is provided.
+To use the `Toast` class, instantiate it with a configuration object, specifying the desired icon, message text, style, position, and visibility time. The toast will then be appended to the specified parent element or `document.body` if no parent is provided. If a visibility time is specified, the toast will automatically be removed after that duration.
